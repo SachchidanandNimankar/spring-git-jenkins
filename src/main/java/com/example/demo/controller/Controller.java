@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
 	
 	@GetMapping("/getMessage")
-	public String getMessage() {
+	public getMessage() {
 		return "Hi Rahul, its my first attempt on docker";
 				
 	}
